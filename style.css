@@ -1,0 +1,38 @@
+form {
+  color: white;
+  border: solid;
+  padding: 20px 5px 100px 5px;
+  border-radius: 0%;
+  text-align: justify;
+  background-image: url(https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg);
+  background-size: cover;
+}
+input {
+  padding: 0%;
+  border-color: blue;
+  border-radius: 0%;
+  height: 20px;
+}
+#dangky {
+  border-color: black;
+  background-color: white;
+  float: right;
+  cursor: pointer;
+  margin-top: 70px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 5px;
+}
+#quenmatkhau {
+  border-color: black;
+  background-color: white;
+  float: right;
+  cursor: pointer;
+  margin-top: 70px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 5px;
+}
+hr {
+  margin-bottom: 30px;
+}
