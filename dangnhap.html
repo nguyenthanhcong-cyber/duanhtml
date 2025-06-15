@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classy Login Form</title>
+    <link rel="stylesheet" href="styleform.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="login-title">Classy Login Form</h1>
+      <form class="login-form">
+        <div class="form-group">
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="User name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <i class="fas fa-lock"></i>
+          <input
+            type="password"
+            class="form-input"
+            placeholder="••••••••"
+            required
+          />
+        </div>
+
+        <div class="form-options">
+          <label class="remember-me">
+            <input type="checkbox" />
+            Remember me
+          </label>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="login-btn">Login</button>
+
+        <div class="divider">
+          <span>or</span>
+        </div>
+
+        <div class="social-login">
+          <button type="button" class="social-btn facebook-btn">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+          </button>
+          <button type="button" class="social-btn twitter-btn">
+            <i class="fab fa-twitter"></i>
+            Twitter
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      © 2016 Classy Login Form. All rights reserved | Design by
+      <a href="#">W3layouts</a>
+    </div>
+
+    <script>
+      // Xử lý form submit
+      document
+        .querySelector(".login-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Đăng nhập thành công!");
+        });
+
+      // Xử lý social login
+      document
+        .querySelector(".facebook-btn")
+        .addEventListener("click", function () {
+          alert("Đăng nhập bằng Facebook");
+        });
+
+      document
+        .querySelector(".twitter-btn")
+        .addEventListener("click", function () {
+          alert("Đăng nhập bằng Twitter");
+        });
+    </script>
+  </body>
+</html>
